@@ -1,0 +1,122 @@
+@media (max-width:800px){
+	.wrapper{
+		width:90%;
+	}
+	.homepage{
+		.m800{
+			display:block;
+		}
+		.m800-none{
+			display:none;
+		} 
+		h2{
+			font-size:1.7rem;
+			text-align:center;
+		}
+		.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11{
+			padding:2rem 0;
+		}
+		.section1{
+			h2{
+				text-align:left;
+			}
+		}
+		.section2{
+			.flex-item{
+				width:100%;
+			}
+			.team{
+				width:100%;
+				.img-box{
+					width:33.33%;
+					p{
+						margin:0;
+					}
+					p.h2{
+						font-size:1.4rem;
+					}
+				}	
+			}
+		}
+		.section4{
+			padding:1rem;
+		}
+		.section5{
+			.work-gallery{
+				.text-box{
+					font-size:2.6rem;
+				}
+			}
+		}
+		.section6{
+			.img-container{
+				width:15%;
+			}
+		}
+		.section7{
+			.flickity{
+				&:after{
+					content:'flickity';
+  					display: none;
+				}
+			}
+			.flickity-prev-next-button {
+				width: 30px;
+				height: 30px;
+				background: transparent;
+			}
+			.content-box{
+				width:70%;
+				button{
+					width:40%;
+				}
+			}
+		}
+		.section8{
+			.content{
+				padding:5%;
+			}
+			.comment-box{
+				padding:5%;
+			}
+		}
+		.section9{
+			align-text:center;
+			.wrapper{
+				width:70%;
+			}
+			h2{
+				color:$darkgray;
+			}
+		}
+		.section10{
+			input{
+				width:49%;
+			}
+			button{
+				width:100%;
+			}
+		}
+	}
+	footer{
+		p{
+			font-weight:600;
+			font-size:1rem;
+			letter-spacing:0;
+		}
+	}
+	.fixed {
+		position: fixed;
+		top:0; left:0;
+		width: 100%; 
+		z-index:100;
+	}
+	header{
+		#menuIcon{
+			display:none;
+		}
+	}
+	.video{
+		width:90%;
+	}
+}

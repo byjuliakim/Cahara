@@ -1,0 +1,28 @@
+button{
+	background:$red;
+	border-radius:.5rem;
+	border:none;
+	font-weight:900;
+	color:white;
+	letter-spacing:0.1rem;
+	border:0.3rem solid $red;
+}
+button.big{
+	padding:1.4rem;
+	font-size:1.4rem;
+	color:white;
+}
+button.transparent{
+	background:none;
+	border:0.3rem solid white;
+}
+button.small{
+	font-weight:900;
+	font-size:1.1rem;
+	padding:1rem;
+}
+button.small.round{
+	border-radius:3rem;
+	font-size:1.1rem;
+	padding:1rem;
+}
