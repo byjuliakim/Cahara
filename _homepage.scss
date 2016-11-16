@@ -325,6 +325,8 @@
 			background-color: $bggray;
 			padding:2%;
 			margin-bottom:2%;
+			border: 3px solid transparent;
+			transition: .4s;
 			&:focus{
 				outline:none;
 				border: 3px solid $green;

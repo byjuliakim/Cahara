@@ -973,6 +973,8 @@ button.small.round {
   background-color: #eeeff3;
   padding: 2%;
   margin-bottom: 2%;
+  border: 3px solid transparent;
+  transition: .4s;
 }
 
 .homepage .section10 input:focus, .homepage .section10 textarea:focus {
